@@ -23,7 +23,7 @@ genvm-lint check contracts/AgentPermit.py
 python -m pytest tests/direct -q
 ```
 
-For the release flow and exact request format, see [docs/PROTOCOL.md](docs/PROTOCOL.md). Live deployment evidence, when available, is recorded in `deployments/studionet.json` with exact source and transaction hashes.
+For the release flow and exact request format, see [docs/PROTOCOL.md](docs/PROTOCOL.md). The verified StudioNet demonstration is at [0xeb3DCEA98B5A426098682A60Ba7fB0A52ba82F9e](https://explorer-studio.genlayer.com/address/0xeb3DCEA98B5A426098682A60Ba7fB0A52ba82F9e). Its exact source hash, ALLOW receipt, and consumption transactions are in [deployments/studionet.json](deployments/studionet.json). The demo used disposable signers; deploy a new instance with retained owner, agent, and executor wallets for ongoing use.
 
 ## Why GenLayer
 
