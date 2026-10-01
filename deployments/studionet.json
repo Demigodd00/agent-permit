@@ -1,0 +1,10 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "status": "NOT_DEPLOYED",
+  "contract_address": null,
+  "source_commit": null,
+  "source_sha256": null,
+  "deploy_transaction": null,
+  "smoke_test": null
+}

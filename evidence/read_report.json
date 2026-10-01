@@ -1,0 +1,1 @@
+{"amount_atto":0,"capability":"READ_FILES","outbound_domains":[],"purpose":"Create a section index for a public quarterly report without writing files or accessing the network.","steps":["Open /reports/quarterly.txt and read its section headings.","Return the headings to the requesting agent without changing the file or reading other paths."],"target":"/reports/quarterly.txt"}
