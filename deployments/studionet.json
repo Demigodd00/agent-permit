@@ -1,10 +1,30 @@
 {
   "network": "studionet",
   "chain_id": 61999,
-  "status": "NOT_DEPLOYED",
-  "contract_address": null,
-  "source_commit": null,
-  "source_sha256": null,
-  "deploy_transaction": null,
-  "smoke_test": null
+  "status": "VERIFIED",
+  "source_commit": "912a065907e38a92691ab9e4e5b78b7ad8b863e0",
+  "source_sha256": "b89964f5b0621d5358e225e2869437d25dea554d6144c5ecdbb3eb0b472c3524",
+  "contract_address": "0xeb3DCEA98B5A426098682A60Ba7fB0A52ba82F9e",
+  "explorer": "https://explorer-studio.genlayer.com/address/0xeb3DCEA98B5A426098682A60Ba7fB0A52ba82F9e",
+  "deploy_transaction": "0xa36d1af9b0d4f033a3b28fbe704b0f060a34f8f397ea6e9744b1cc7661cd147c",
+  "deployed_at": "2026-10-01T08:58:00.882459+00:00",
+  "wallet_policy": "disposable StudioNet-only signers; private keys not retained",
+  "owner": "0xB9Fbb82637BD6f152e5e9b78aAA97c2ec75C552c",
+  "agent": "0xefE734D945c0Bb68C0B8f9B8bA57e385F169aa11",
+  "executor": "0xc293C3f6070dfC69BB999283EfDa1d1271873b81",
+  "policy_transaction": "0x7b798657269038d657e160d5eaf16e3f6c695ea5cc41da366980a83a8b5dd984",
+  "evidence_url": "https://raw.githubusercontent.com/Demigodd00/agent-permit/912a065907e38a92691ab9e4e5b78b7ad8b863e0/evidence/read_report.json",
+  "evidence_sha256": "5779688a998f910ac086f70a5872662a1ea905b6e6f3f97a729b87fa9ee952a2",
+  "smoke_test": {
+    "request_transaction": "0xcfc22c298ece375ee5e2d2563edc52785a4b4c907dc06ac23861131ad2a9f865",
+    "request_attempts": [
+      "0xcfc22c298ece375ee5e2d2563edc52785a4b4c907dc06ac23861131ad2a9f865"
+    ],
+    "consume_transaction": "0x16d30c6e272207ccab5ebd8dc05f3e7f3ac55f8daa7acd2b1c71b7ae70a45174",
+    "receipt_id": "07790520c7a4a7d4506cda7a3cfcd97d601d1528cefd543328d95081c52c4fc9",
+    "decision": "ALLOW",
+    "evidence_verified": true,
+    "consumed": true,
+    "policy_snapshot_verified": true
+  }
 }
